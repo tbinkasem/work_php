@@ -16,6 +16,8 @@
 	{
 			$_SESSION["ids"] = $objResult["ids"];
 			$_SESSION["status"] = $objResult["status"];
+            $_SESSION['fullname'] = $objResult["fullname"];
+            $_SESSION['depname'] = $objResult["depname"];
 
 			session_write_close();
 			
