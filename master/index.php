@@ -32,7 +32,7 @@
         <?php if ($c!="." && $c!="..") { ?>
         <tr>    
             <td><?php echo $num++;  ?></td>
-            <td><?php echo $c; ?></td>
+            <td><a href="<?php echo $c; ?>" target="_blank"><?php echo $c; ?></a></td>
         </tr>
         <?php } } ?>
     </table>
