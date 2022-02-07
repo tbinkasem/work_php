@@ -152,12 +152,24 @@ iframe {
 .txt1 {
   font-family: Raleway-Regular;
   font-size: 16px;
-  color: #999999;
+  color: #6d6868;
+  line-height: 1.4;
+}
+.txt2 {
+  font-family: Raleway-Regular;
+  font-size: 16px;
+  color: #06f83a;
+  line-height: 1.4;
+}
+.txt3 {
+  font-family: Raleway-Regular;
+  font-size: 16px;
+  color: #f80606;
   line-height: 1.4;
 }
 
 .bo1 {
-  border-bottom: 1px solid #999999;
+  border-bottom: 0px solid #999999;
 }
 
 .hov1:hover {

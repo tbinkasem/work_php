@@ -10,6 +10,8 @@
     // $db = "epiz_25241252_phpwork";
 
     $conn = mysqli_connect($server,$user,$pass,$db);
+    mysqli_set_charset($conn, "utf8");
+    date_default_timezone_set("Asia/Bangkok");
 
     if(!$conn){
         echo "ไม่สามารถเชื่อมต่อฐานข้อมูลได้";
