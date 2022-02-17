@@ -55,9 +55,10 @@
     </div>
     <hr color="red">
     <form action="process_file.php" method="post" enctype="multipart/form-data">
-        <p>ส่งไฟล์ชิ้นงาน xxx.php</p>
-        <input name="fphp" type="file" accept=".php">
-        <input id="php" type="submit" value="ส่งไฟล์ PHP">
+        <p>ส่งไฟล์ชิ้นงาน xxx.php / xxx.html / xxx.js / xxx.css </p>
+        <input name="fphp" type="file">
+        <!-- <input name="fphp" type="file" accept=".php"> -->
+        <input id="php" type="submit" value="ส่งไฟล์">
     </form>
     <form action="process_image.php" method="post" enctype="multipart/form-data">
         <p>ส่งไฟล์รูปภาพประกอบ</p>
