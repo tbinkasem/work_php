@@ -5,7 +5,13 @@
 
     if(isset($_FILES['fphp'])){
 
+        //case multi extension
         $errors= array();
+        $extensions= array("php","js","html","css");
+
+        //case single extension
+        //$extensions = "php";
+        //$errors = $file_ext == $extensions;
         
         $file_name = $_FILES['fphp']['name'];
         $file_size = $_FILES['fphp']['size'];
@@ -13,9 +19,7 @@
         $file_type = $_FILES['fphp']['type'];
         $file_ext = pathinfo($_FILES['fphp']['name'], PATHINFO_EXTENSION);
         
-        //$extensions = "php";
-        $extensions= array("php","js","html");
-        //$errors = $file_ext == $extensions;
+        
 
         if(in_array($file_ext,$extensions)=== false){
         // if($file_ext != $extensions){
